@@ -1,14 +1,14 @@
-# AngularExamples
+# Angular Examples
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/dmeneses/angular-examples)
+
+Repository with examples of Angular features from version 16-18.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
