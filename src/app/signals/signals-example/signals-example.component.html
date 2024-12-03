@@ -1,1 +1,46 @@
-<p>signals-example works!</p>
+<section class="container">
+  <h2>
+    Counter Signals vs RxJS
+  </h2>
+  <p>Signal create, update, compute</p>
+  <article class="counter-signals">
+    <div class="row">
+      <div class="col-md-4">
+        <app-signals-counter></app-signals-counter>
+      </div>
+      <div class="col-md-4">
+        <app-rxjs-counter></app-rxjs-counter>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="container mt-5">
+  <h2>
+    Filter example Signals vs RxJS
+  </h2>
+  <article class="counter-signals">
+    <div class="row">
+      <div class="col-md-4">
+        <app-signals-filter></app-signals-filter>
+      </div>
+      <div class="col-md-4">
+        <app-rxjs-filter></app-rxjs-filter>
+      </div>
+    </div>
+  </article>
+</section>
+
+
+<section class="container mt-5">
+  <h2>
+    Parent-Child communication example
+  </h2>
+  <article class="counter-signals">
+    <div class="row">
+      <div class="col-12">
+        <app-signals-parent></app-signals-parent>
+      </div>
+    </div>
+  </article>
+</section>

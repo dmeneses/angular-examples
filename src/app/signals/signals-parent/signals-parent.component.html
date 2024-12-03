@@ -1,0 +1,4 @@
+<h3>Parent Component</h3>
+<p>Message: {{ message() }}</p>
+<app-signals-child [message]="message"></app-signals-child>
+<button (click)="updateMessage()">Update Message</button>
