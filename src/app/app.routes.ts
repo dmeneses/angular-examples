@@ -24,6 +24,6 @@ export const routes: Routes = [
   },
   {
     path: 'signals',
-    loadChildren: () => import('./signals/signals.module').then(mod => mod.SIGNAL_ROUTES),
+    loadChildren: () => import('./signals/routes').then(mod => mod.SIGNAL_ROUTES),
   },
 ];

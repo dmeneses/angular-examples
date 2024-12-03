@@ -17,7 +17,3 @@ import {Route} from '@angular/router';
   ]
 })
 export class SignalsModule { }
-
-export const SIGNAL_ROUTES: Route[] = [
-  {path: '', component: SignalsExampleComponent},
-];
