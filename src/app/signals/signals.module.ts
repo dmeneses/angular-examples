@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SignalsExampleComponent} from './signals-example/signals-example.component';
+import {Route} from '@angular/router';
 
 @NgModule({
   declarations: [],
@@ -16,3 +17,7 @@ import {SignalsExampleComponent} from './signals-example/signals-example.compone
   ]
 })
 export class SignalsModule { }
+
+export const SIGNAL_ROUTES: Route[] = [
+  {path: '', component: SignalsExampleComponent},
+];

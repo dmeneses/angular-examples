@@ -9,6 +9,7 @@ export const routes: Routes = [
     children: [
       {
         path: '',
+        // Any route can lazily load its routed, standalone component by using loadComponent:
         loadComponent: () => import('./standalone/standalone-example/standalone-example.component').then(m => m.StandaloneExampleComponent),
       },
       {
@@ -17,5 +18,13 @@ export const routes: Routes = [
       }
     ]
   },
+  {
+    path: 'standalone-components-router',
+    loadChildren: () => import('./standalone/routes'),
 
+  },
+  {
+    path: 'signals',
+    loadChildren: () => import('./signals/signals.module').then(mod => mod.SIGNAL_ROUTES),
+  },
 ];

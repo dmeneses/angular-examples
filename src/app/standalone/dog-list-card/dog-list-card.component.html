@@ -5,6 +5,6 @@
     <p class="card-text overflow-y-hidden" style="min-height:100px; max-height: 100px;">
       <strong>{{ dog.ownerName }}</strong> wants you to know this about {{ dog.name }}: {{ dog.description }}
     </p>
-    <a href="/standalone-components/details/{{index}}" class="btn btn-primary">Learn More</a>
+    <a [routerLink]="['./details', index]" class="btn btn-primary">Learn More</a>
   </div>
 </div>
