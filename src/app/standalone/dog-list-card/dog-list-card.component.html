@@ -1,0 +1,10 @@
+<div class="card mb-2">
+  <img src="{{dog.photoUrl}}" class="card-img-top" alt="Photo of {{dog.name}}" height="300px" width="300px" style="object-fit: cover;">
+  <div class="card-body">
+    <h5 class="card-title">Meet <span class="pet-name">{{ dog.name }}</span></h5>
+    <p class="card-text overflow-y-hidden" style="min-height:100px; max-height: 100px;">
+      <strong>{{ dog.ownerName }}</strong> wants you to know this about {{ dog.name }}: {{ dog.description }}
+    </p>
+    <a href="/standalone-components/details/{{index}}" class="btn btn-primary">Learn More</a>
+  </div>
+</div>

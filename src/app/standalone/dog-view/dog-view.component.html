@@ -1,0 +1,9 @@
+<div class="card mb-2 container" *ngIf="(dog$ | async) as dog">
+  <img src="{{dog.photoUrl}}" class="card-img-top" alt="Photo of {{dog.name}}" height="700px" width="300px" style="object-fit: cover;">
+  <div class="card-body">
+    <h1 class="card-title">Hi, I'm {{dog.name}}</h1>
+    <h2>My owner's name is <span class="emphasize">{{dog.ownerName}}</span></h2>
+    <p class="card-text">{{dog.longDescription}}</p>
+    <p class="card-text">I live in <span class="emphasize">{{dog.location}}</span></p>
+  </div>
+</div>

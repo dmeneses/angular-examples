@@ -1,0 +1,12 @@
+<section class="container">
+  <h2>
+    Discover Pets to walk near you
+  </h2>
+</section>
+<article class="pet-list container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let dog of dogsService.dogs; let i = index">
+      <app-dog-list-card [index]="i" [dog]="dog"></app-dog-list-card>
+    </div>
+  </div>
+</article>
