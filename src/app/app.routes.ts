@@ -21,7 +21,6 @@ export const routes: Routes = [
   {
     path: 'standalone-components-router',
     loadChildren: () => import('./standalone/routes'),
-
   },
   {
     path: 'signals',
